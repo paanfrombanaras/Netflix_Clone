@@ -277,6 +277,7 @@ input {
 }
 
 footer{
+  height: 25vh;
   max-width: 70vw;
   margin: auto;
   color:rgb(124, 124, 124);
@@ -318,5 +319,15 @@ footer{
   }
   .footer{
     grid-template-columns: 1fr 1fr;
+    gap: 2vh;
+  }
+  .footer div{
+    gap: 1vh;
+  }
+  footer{
+    height: 59vh;
+  }
+  .Netflix_India{
+    padding: 1.5vh 0;
   }
 }
