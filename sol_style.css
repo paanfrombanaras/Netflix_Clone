@@ -1,0 +1,322 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+.main {
+  background-image: url(assets/images/IN-en-20240520-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 85vh;
+  position: relative;
+}
+
+.main .box {
+  height: 85vh;
+  width: 100%;
+  opacity: 0.44;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+
+nav {
+  max-width: 78vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 62px;
+}
+
+nav span img {
+  width: 160px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 62px);
+  position: relative;
+  gap: 20px;
+  padding: 0 30px;
+}
+
+.hero > :first-child {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.seperation {
+  width: 100vw;
+  height: 11px;
+  background-color: rgb(60, 60, 60);
+}
+
+.btn {
+  padding: 3px 8px;
+  color: white;
+  background-color: white;
+  font-weight: 700;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.btn_red {
+  background-color: red;
+  color: white;
+  padding: 10px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid red;
+}
+
+input {
+  padding: 10px 24px;
+  font-size: 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 25vw;
+  color: white;
+  border: 2px solid gray;
+}
+.btn_red_sm {
+  background-color: red;
+  color: white;
+  border: 2px solid red;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 4px 15px;
+}
+
+.flex_row {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang {
+  gap: 7px;
+}
+
+.first {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+
+
+.first> div {
+  display: flex;
+  flex-direction: column;
+}
+.display {
+  position: relative;
+}
+
+.display img {
+  width: 30vw;
+  position: relative;
+}
+
+.display video {
+  position: absolute;
+  width: 21.8vw;
+  top: 4.8vw;
+  left: 4vw;
+}
+
+.first> div :first-child {
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.first> div :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.second{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+}
+
+.second .display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.second .display>img{
+  width: 35vw;
+  position: relative;
+}
+.second .display .second_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 10px ;
+}
+
+.second_box>img{
+  width: 3vw;
+}
+
+.second_box{
+  position: absolute;
+  background-color: black;
+  top: 18vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bold48{
+  color: white;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.bold24{
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.flex_col{
+  display: flex;
+  flex-direction: column;
+}
+
+.third video{
+  top: 2vw;
+  left: 5vw;
+  width: 19vw;
+}
+
+.faq{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5vw;
+  gap: 2vw;
+}
+
+.questions{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.questions span:hover{
+  background-color: gray;
+}
+.questions span{
+  transition: all 0.2s ease-out;
+  background-color: rgb(60, 60, 60);
+  height: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+  padding: 0vw 3vw;
+  cursor: pointer;
+}
+
+.bold20{
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+footer{
+  max-width: 70vw;
+  margin: auto;
+  color:rgb(124, 124, 124);
+  padding: 4vw 0;
+}
+
+.footer{
+  padding: 1vw 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer div{
+  gap: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a{
+  text-decoration: underline;
+  color: rgb(124, 124, 124);
+}
+
+@media  screen and (max-width: 960px) {
+  .first{
+    flex-direction: column;
+  }
+  .second{
+    flex-wrap: wrap;
+  }
+  .bold48{
+    font-size: 30px;
+  }
+  .bold24{
+    font-size: 15px;
+  }
+  .main{
+    background-size: cover;
+  }
+  .footer{
+    grid-template-columns: 1fr 1fr;
+  }
+}
